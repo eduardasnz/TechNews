@@ -37,18 +37,16 @@ a:hover {
   color: var(--brand-color-light);
 }
 
-/* utility-firt */
-
-.grid {
-  display: grid;
+img {
+  width: 100%;
 }
 
-.grid-col {
-  grid-auto-flow: column;
+#svg-img {
+  width: 24px; /* tamanho adequado */
+  height: auto;
 }
 
-.container {
-  max-width: 1280px;
-  padding-inline: 32px;
-  margin-inline: auto;
+main {
+  margin-top: 40px;
+  
 }
